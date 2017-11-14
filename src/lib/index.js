@@ -7,11 +7,11 @@ import Caption from './atoms/Button';
 import Heading from './atoms/Heading';
 import HorizontalRule from './atoms/HorizontalRule';
 import Icon from './atoms/Icon';
+import Image from './atoms/Image';
 import Input from './atoms/Input';
 import Label from './atoms/Label';
 import Link from './atoms/Link';
 import List from './atoms/List';
-import LogoImage from './atoms/LogoImage';
 import Paragraph from './atoms/Paragraph';
 import PreformattedText from './atoms/PreformattedText';
 import Spinner from './atoms/Spinner';
@@ -53,11 +53,11 @@ export {
   Heading,
   HorizontalRule,
   Icon,
+  Image,
   Input,
   Label,
   Link,
   List,
-  LogoImage,
   Paragraph,
   PreformattedText,
   Spinner,
