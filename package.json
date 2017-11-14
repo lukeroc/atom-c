@@ -73,7 +73,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "peerDependencies": {
-    "react": "^15.6.2"
+    "react": "latest"
   },
   "jest": {
     "collectCoverageFrom": [
