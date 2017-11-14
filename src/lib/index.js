@@ -20,9 +20,9 @@ import TableRow from './atoms/TableRow';
 import Tooltip from './atoms/Tooltip';
 
 // MOLECULES
-// import Blockquote from './molecules/Blockquote';
-// import Feature from './molecules/Feature';
-// import Field from './molecules/Field';
+import Blockquote from './molecules/Blockquote';
+import Feature from './molecules/Feature';
+import Field from './molecules/Field';
 // import IconButton from './molecules/IconButton';
 // import IconLink from './molecules/IconLink';
 // import Modal from './molecules/Modal';
@@ -63,14 +63,14 @@ export {
   Spinner,
   TableCell,
   TableRow,
-  Tooltip
+  Tooltip,
+  
+  Blockquote,
+  Feature,
+  Field
 }
 
-// ,
 
-//   Blockquote,
-//   Feature,
-//   Field,
 //   IconButton,
 //   IconLink,
 //   Modal,
