@@ -2,12 +2,12 @@
 import Atom from './atoms/Atom';
 import Badge from './atoms/Badge';
 import Block from './atoms/Block';
+import BlockImage from './atoms/BlockImage';
 import Button from './atoms/Button';
 import Caption from './atoms/Button';
 import Heading from './atoms/Heading';
 import HorizontalRule from './atoms/HorizontalRule';
 import Icon from './atoms/Icon';
-import Image from './atoms/Image';
 import Input from './atoms/Input';
 import Label from './atoms/Label';
 import Link from './atoms/Link';
@@ -48,12 +48,12 @@ export {
   Atom,
   Badge,
   Block,
+  BlockImage,
   Button,
   Caption,
   Heading,
   HorizontalRule,
   Icon,
-  Image,
   Input,
   Label,
   Link,
