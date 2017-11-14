@@ -11,7 +11,7 @@ import {
   Heading,
   Badge,
   PreformattedText
-} from '../../'
+} from '../../index'
 
 const Wrapper = styled.div`
   position: relative;
