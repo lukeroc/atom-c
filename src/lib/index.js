@@ -21,7 +21,7 @@ import Tooltip from './atoms/Tooltip';
 
 // MOLECULES
 import Blockquote from './molecules/Blockquote';
-import Feature from './molecules/Feature';
+// import Feature from './molecules/Feature';
 // import Field from './molecules/Field';
 // import IconButton from './molecules/IconButton';
 // import IconLink from './molecules/IconLink';
@@ -65,29 +65,32 @@ export {
   TableRow,
   Tooltip,
   
-  Blockquote,
-  Feature
+  Blockquote
 }
 
-//    Field,
-//   IconButton,
-//   IconLink,
-//   Modal,
-//   Molecule,
-//   Post,
-//   PrimaryNavigation,
-//   Slider,
-//   Table
 
-// ,
 
-//   ConfirmModal,
-//   FeatureList,
-//   Footer,
-//   Header,
-//   Hero,
-//   LoginModal,
-//   PostForm,
-//   PostList,
-//   ReduxField,
-//   UserButton
+
+// Feature
+// Field
+// IconButton
+// IconLink
+// Modal
+// Molecule
+// Post
+// PrimaryNavigation
+// Slider
+// Table
+
+
+
+// ConfirmModal
+// FeatureList
+// Footer
+// Header
+// Hero
+// LoginModal
+// PostForm
+// PostList
+// ReduxField
+// UserButton
