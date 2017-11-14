@@ -26,10 +26,10 @@ import Blockquote from './molecules/Blockquote';
 // import IconButton from './molecules/IconButton';
 // import IconLink from './molecules/IconLink';
 // import Modal from './molecules/Modal';
-// import Molecule from './molecules/Molecule';
+import Molecule from './molecules/Molecule';
 // import Post from './molecules/Post';
 // import PrimaryNavigation from './molecules/PrimaryNavigation';
-// import Slider from './molecules/Slider';
+import Slider from './molecules/Slider';
 // import Table from './molecules/Table';
 
 // ORGANISMS
@@ -65,7 +65,10 @@ export {
   TableRow,
   Tooltip,
   
-  Blockquote
+  Blockquote,
+
+  Molecule,
+  Slider
 }
 
 
