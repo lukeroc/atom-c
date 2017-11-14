@@ -1,7 +1,7 @@
 {
-  "name": "create-react-library",
-  "version": "1.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "name": "atom-c",
+  "version": "0.0.1",
+  "description": "A collection of React components (by arc.js.org) in Atomic Design structure (by Brad Frost)",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udiliaInc/create-react-library.git"
+    "url": "git+https://github.com/lukeroc/atom-c.git"
   },
-  "author": "Dimitri Mikadze <dimitri@udilia.com>",
+  "author": "Luke Rocco <luke.rocco@globalgaming.com>",
   "bugs": {
-    "url": "https://github.com/udiliaInc/create-react-library/issues"
+    "url": "https://github.com/lukeroc/atom-c/issues"
   },
-  "homepage": "https://github.com/udiliaInc/create-react-library#readme",
+  "homepage": "https://github.com/lukeroc/atom-c#readme",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "7.1.2",
