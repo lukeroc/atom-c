@@ -21,7 +21,7 @@ import Tooltip from './atoms/Tooltip';
 
 // MOLECULES
 import Blockquote from './molecules/Blockquote';
-// import Feature from './molecules/Feature';
+import Feature from './molecules/Feature';
 // import Field from './molecules/Field';
 // import IconButton from './molecules/IconButton';
 // import IconLink from './molecules/IconLink';
@@ -66,7 +66,7 @@ export {
   Tooltip,
   
   Blockquote,
-
+  Feature,
   Molecule,
   Slider
 }
@@ -74,7 +74,7 @@ export {
 
 
 
-// Feature
+
 // Field
 // IconButton
 // IconLink

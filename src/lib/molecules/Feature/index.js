@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { ifProp } from 'styled-tools'
 
-
 import {
   Icon,
   Link,
@@ -24,13 +23,6 @@ const Wrapper = styled.div`
   }
 `
 
-const StyledIcon = styled(Icon)`
-  flex: none;
-  @media screen and (max-width: 640px) {
-    width: 32px;
-  }
-`
-
 const Text = styled.div`
   margin-left: 1rem;
   overflow: auto;
@@ -39,22 +31,12 @@ const Text = styled.div`
   }
 `
 
-const StyledBadge = styled(Badge)`
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  @media screen and (max-width: 640px) {
-    top: 0.5rem;
-    right: 0.5rem;
-  }
-`
-
 const Feature = ({
   icon, title, link, code, children, ...props
 }) => {
   return (
     <Wrapper {...props}>
-      {icon && <StyledIcon icon={icon} width={64} />}
+      {icon && <Icon icon={icon} width={64} />}
       <Text>
         <Heading level={2}>
           {link ? <Link href={link}>{title}</Link> : title}
@@ -62,7 +44,7 @@ const Feature = ({
         <Paragraph>{children}</Paragraph>
         {code && <PreformattedText block>{code}</PreformattedText>}
       </Text>
-      {props.soon && <StyledBadge palette="grayscale">soon</StyledBadge>}
+      {props.soon && <Badge palette="grayscale">soon</Badge>}
     </Wrapper>
   )
 }
