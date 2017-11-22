@@ -63,7 +63,7 @@ module.exports = {
             loader: require.resolve('babel-loader'),
             options: {
               compact: true,
-            },
+            }
           },
           // The notation here is somewhat confusing.
           // "postcss" loader applies autoprefixer to our CSS.
@@ -126,7 +126,7 @@ module.exports = {
           // Make sure to add the new loader(s) before the "file" loader.
         ]
       }
-    ]    
+    ]
   },
   plugins: [
     // Minify the code.
@@ -150,7 +150,7 @@ module.exports = {
   ],
   externals: {
    'react': 'react',
-   'react-dom': 'reactDOM'
+   'react-dom': 'react-dom'
   },
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
